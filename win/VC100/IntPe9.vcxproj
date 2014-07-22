@@ -453,7 +453,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PreprocessorDefinitions>BOOST_DATE_TIME_NO_LIB;UNICODE;WIN32;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;_DEBUG;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;.\..\..\IntPe9\GeneratedFiles;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;.\..\..\IntPe9\GeneratedFiles;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtANGLE</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -493,7 +493,7 @@ $(SolutionDir)..\dep\mark $(TargetPath) Int9 48</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <PreprocessorDefinitions>BOOST_DATE_TIME_NO_LIB;WIN32;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;..\..\IntPe9\GeneratedFiles;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;.\..\..\IntPe9\GeneratedFiles;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;..\..\IntPe9\GeneratedFiles;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;.\..\..\IntPe9\GeneratedFiles;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtANGLE</AdditionalIncludeDirectories>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS /DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
