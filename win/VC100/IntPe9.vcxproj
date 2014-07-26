@@ -453,7 +453,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <PreprocessorDefinitions>BOOST_DATE_TIME_NO_LIB;UNICODE;WIN32;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;_DEBUG;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;.\..\..\IntPe9\GeneratedFiles;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;.\..\..\IntPe9\GeneratedFiles;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtANGLE</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -472,9 +472,9 @@ IF NOT EXIST "$(OutDir)\Qt5Guid.dll" copy $(QTDIR)\bin\Qt5Guid.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\Qt5Widgetsd.dll" copy $(QTDIR)\bin\Qt5Widgetsd.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\Qt5Xmld.dll" copy $(QTDIR)\bin\Qt5Xmld.dll $(OutDir)
 
-IF NOT EXIST "$(OutDir)\icuin49.dll" copy $(QTDIR)\bin\icuin49.dll $(OutDir)
-IF NOT EXIST "$(OutDir)\icudt49.dll" copy $(QTDIR)\bin\icudt49.dll $(OutDir)
-IF NOT EXIST "$(OutDir)\icuuc49.dll" copy $(QTDIR)\bin\icuuc49.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icuin52.dll" copy $(QTDIR)\bin\icuin52.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icudt52.dll" copy $(QTDIR)\bin\icudt52.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icuuc52.dll" copy $(QTDIR)\bin\icuuc52.dll $(OutDir)
 
 IF NOT EXIST "$(OutDir)\pythonE9.dll" copy ..\..\dep\lib\pythonE9.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\PythonE9.zip" copy ..\..\dep\lib\PythonE9.zip $(OutDir)
@@ -493,7 +493,7 @@ $(SolutionDir)..\dep\mark $(TargetPath) Int9 48</Command>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <PreprocessorDefinitions>BOOST_DATE_TIME_NO_LIB;WIN32;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_XML_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;..\..\IntPe9\GeneratedFiles;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;.\..\..\IntPe9\GeneratedFiles;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../../;../../IntPe9;../../IntPe9/Src;../../dep/include;..\..\IntPe9\GeneratedFiles;$(QTDIR)\include;$(QTDIR)\include\QtWidgets;..\..\IntPe9\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;.\..\..\IntPe9\GeneratedFiles;$(QTDIR)\include\QtXmlPatterns;$(QTDIR)\include\QtXml;$(QTDIR)\include\QtANGLE</AdditionalIncludeDirectories>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <AdditionalOptions>-D_SCL_SECURE_NO_WARNINGS /DNOMINMAX %(AdditionalOptions)</AdditionalOptions>
@@ -510,9 +510,9 @@ IF NOT EXIST "$(OutDir)\Qt5Gui.dll" copy $(QTDIR)\bin\Qt5Gui.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\Qt5Widgets.dll" copy $(QTDIR)\bin\Qt5Widgets.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\Qt5Xml.dll" copy $(QTDIR)\bin\Qt5Xml.dll $(OutDir)
 
-IF NOT EXIST "$(OutDir)\icuin49.dll" copy $(QTDIR)\bin\icuin49.dll $(OutDir)
-IF NOT EXIST "$(OutDir)\icudt49.dll" copy $(QTDIR)\bin\icudt49.dll $(OutDir)
-IF NOT EXIST "$(OutDir)\icuuc49.dll" copy $(QTDIR)\bin\icuuc49.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icuin52.dll" copy $(QTDIR)\bin\icuin52.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icudt52.dll" copy $(QTDIR)\bin\icudt52.dll $(OutDir)
+IF NOT EXIST "$(OutDir)\icuuc52.dll" copy $(QTDIR)\bin\icuuc52.dll $(OutDir)
 
 IF NOT EXIST "$(OutDir)\pythonE9.dll" copy ..\..\dep\lib\pythonE9.dll $(OutDir)
 IF NOT EXIST "$(OutDir)\PythonE9.zip" copy ..\..\dep\lib\PythonE9.zip $(OutDir)
